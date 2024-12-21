@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Buy groceries",
+    "hasCompleted": false
+  },
+  {
+    "id": 2,
+    "name": "Clean the house",
+    "hasCompleted": true
+  },
+  {
+    "id": 3,
+    "name": "Finish React project",
+    "hasCompleted": false
+  },
+  {
+    "id": 4,
+    "name": "Prepare dinner",
+    "hasCompleted": true
+  },
+  {
+    "id": 5,
+    "name": "Read a book",
+    "hasCompleted": false
+  }
+]

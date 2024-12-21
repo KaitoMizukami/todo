@@ -6,12 +6,12 @@ export default function NewTask() {
     <Box sx={{ display: "flex", mb: 3 }}>
       <TextField
         fullWidth
-        placeholder="新しいタスクを入力"
+        placeholder="Add new todo"
         variant="outlined"
         size="small"
       />
       <Button variant="contained" color="success" sx={{ ml: 2 }}>
-        追加
+        Add
       </Button>
     </Box>
   );
