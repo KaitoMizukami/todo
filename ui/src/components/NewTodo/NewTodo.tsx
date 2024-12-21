@@ -3,7 +3,7 @@ import { Button, TextField, Box } from "@mui/material";
 
 export default function NewTask() {
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box sx={{ display: "flex", mb: 3 }}>
       <TextField
         fullWidth
         placeholder="新しいタスクを入力"

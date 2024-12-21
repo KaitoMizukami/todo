@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import { Box, Container } from "@mui/material";
 import NewTask from "../NewTodo/NewTodo";
+import ListTodo from "../ListTodo/ListTodo";
 
 export default function Todo() {
   return (
@@ -9,6 +10,7 @@ export default function Todo() {
       <Header />
       <Container maxWidth="sm" sx={{ mt: 4 }}>
         <NewTask />
+        <ListTodo />
       </Container>
     </Box>
   );
