@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../Header/Header";
 import { Box, Container } from "@mui/material";
 import NewTask from "../NewTodo/NewTodo";
