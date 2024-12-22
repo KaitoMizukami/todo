@@ -9,13 +9,13 @@ import {
 } from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { TodoType } from "../../common/type";
-import { getTodo } from "../../mock/todo";
+import { getMockTodo } from "../../rest-api/todo";
 
 export default function ListTodo() {
   const [todo, setTodo] = useState<TodoType[]>();
 
   useEffect(() => {
-    setTodo(getTodo());
+    setTodo(getMockTodo());
   });
 
   return (

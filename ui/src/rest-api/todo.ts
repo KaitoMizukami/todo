@@ -1,7 +1,7 @@
 import { TodoType } from "../common/type";
-import jsonData from "./todo.json";
+import jsonData from "../mock/todo.json";
 
-export const getTodo = () => {
+export const getMockTodo = () => {
   const todo: TodoType[] = jsonData;
   return todo;
 };
