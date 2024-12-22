@@ -1,0 +1,9 @@
+version: "3.1"
+
+services:
+  web-server:
+    build:
+      context: .
+      dockerfile: ./containers/web-server/Dockerfile
+    ports:
+      - 80:8080
